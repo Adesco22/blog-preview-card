@@ -28,11 +28,18 @@ body {
 }
 
 img {
+  display: block;
   max-width: 100%;
   width: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* specific styling */
+
 .img-container {
   margin-bottom: 24px;
 }
@@ -62,6 +69,9 @@ img {
   font-weight: 800;
 }
 
+.content-wrapper h1 > a:hover {
+  color: rgb(244, 208, 78);
+}
 p.small {
   font-size: 1rem;
   text-align: left;
@@ -70,10 +80,26 @@ p.small {
 }
 
 p.light {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   color: hsl(0, 0%, 50%);
   margin-bottom: 12.5px;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 128px;
+  height: 32px;
+  gap: 0 12px;
+  margin-bottom: 5pxpx;
+}
+
+.avatar p {
+  font-size: 0.875rem;
+  font-weight: 700;
 }
 
 .attribution {
