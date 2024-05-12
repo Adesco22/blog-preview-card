@@ -1,0 +1,81 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(244, 208, 78);
+  margin: 0;
+  font-family: "Figtree", sans-serif;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+}
+
+.content-wrapper {
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 1rem 1rem 1.7rem;
+  max-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+}
+
+/* specific styling */
+.img-container {
+  margin-bottom: 24px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-wrapper button {
+  padding: 0.44rem 0.81rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: rgb(244, 208, 78);
+  border: none;
+  margin-bottom: 14px;
+}
+.content-wrapper button:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: rgb(150, 120, 0);
+  color: #fff;
+}
+
+.content-wrapper h1 {
+  font-size: 1.5rem;
+  margin-bottom: 19px;
+  font-weight: 800;
+}
+
+p.small {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 19px;
+  font-weight: 500;
+}
+
+p.light {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 12.5px;
+}
+
+.attribution {
+  display: none;
+}
